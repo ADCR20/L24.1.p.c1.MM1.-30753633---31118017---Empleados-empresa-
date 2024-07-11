@@ -17,7 +17,8 @@ empresa.procesar(empleado1);
 empresa.procesar(empleado2);
 empresa.procesar(empleado3);
 empresa.procesar(empleado4);
-let salida=document.getElementById("salida");
+
+let salida= document.getElementById("salida");
 salida.innerHTML= "Resultados";
 salida.innerHTML+= "<br> La cantidad de hombres que trabajan en la emprea es: " +empresa.devolverContH();
 salida.innerHTML+="<br> EL porcentaje de mujeres trabajando en la empresa es de: " +empresa.pcteMujeres();
