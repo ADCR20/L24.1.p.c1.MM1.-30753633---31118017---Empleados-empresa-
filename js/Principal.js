@@ -4,13 +4,13 @@ de hombres que trabajan en la empresa y porcentaje de mujeres que trabajan en la
 Se dispone de los siguientes datos de varios empleados: (nombre, sexo) 
 (Mary, ‘F’), (José, ‘M’), (Carlos, ‘M’), (Pedro, ‘M’) */
 
-import Cl_Empleado from "./Cl_Empleados";
+import Cl_Empleados from "./Cl_Empleados";
 import Cl_Empresa from "./Cl_Empresa";
 
-let empleado1=new Cl_Empleado (Mary, "F"); 
-let empleado2=new Cl_Empleado (José, "M"); 
-let empleado3=new Cl_Empleado (Carlos, "M");
-let empleado4=new Cl_Empleado (Pedro, "M");
+let empleado1=new Cl_Empleados (Mary, "F"); 
+let empleado2=new Cl_Empleados (José, "M"); 
+let empleado3=new Cl_Empleados (Carlos, "M");
+let empleado4=new Cl_Empleados (Pedro, "M");
 let empresa=new Cl_Empresa ();
 
 empresa.procesar(empleado1);

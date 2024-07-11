@@ -1,4 +1,4 @@
-export default class Cl_Empleado{
+export default class Cl_Empleados{
 constructor(nombre, sexo){
 this.nombre=nombre;
 this.sexo=sexo;
